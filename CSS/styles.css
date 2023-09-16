@@ -10,6 +10,29 @@ body {
     background-color: #F4ECCF;
 }
 
+.decorative-line {
+    width: 100%;
+    height: 3px; /* Adjust the height as needed */
+    background-color: #F4ECCF; /* Choose a color that complements your design */
+    margin: 10px 0; /* Adjust the margin to control spacing */
+
+}
+
+.restaurant-images {
+    flex-basis: calc(50% - 20px); /* 50% width with spacing */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-images img {
+    width: 48%; /* Adjust the width as needed */
+    max-height: 300px;
+    object-fit: cover;
+	margin-bottom: 80px
+}
+
+
 
 header {
     background-color: #F4ECCF;
@@ -103,7 +126,7 @@ picture and menu {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 96px; 
+    font-size: 72px; 
     color: #fff; 
     background-color: none(0, 0, 0, 0); 
     padding: 10px 20px; 
@@ -127,7 +150,7 @@ main {
 
 .menu-section h2 {
     font-size: 24px;
-    margin: 10px 0;
+    margin: 54px 0px 15px;
     background-color: #F4ECCF;
     padding: 10px;
 	font-family: Arial, "Arial Bold"
