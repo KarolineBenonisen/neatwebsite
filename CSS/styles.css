@@ -1,0 +1,219 @@
+@charset "UTF-8";
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"sans-serif;
+    background-color: #F4ECCF;
+}
+
+
+header {
+    background-color: #F4ECCF;
+    color: #F4ECCF;
+    text-align: center;
+    padding: 10px;
+	font: "Lulo Clean W01 One Bold"
+}
+
+.navbar {
+    display: flex; 
+    align-items: center; 
+    background-color: #F4ECCF; 
+    padding: 10px; 
+    justify-content: space-between;
+}
+.logo img {
+    width: 200px; 
+    height: 89;
+
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin:  10px; 
+}
+
+.navbar a {
+    display: block;
+    width: 100px; 
+    height: 100%; 
+    transition: transform 0.2s; 
+	
+	
+}	
+	.navbar a {
+    background-color: transparent;
+	box-shadow: none;
+		border: none;
+	
+}
+
+
+.navbar a img {
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.navbar a:hover {
+    transform: scale(1.3); 
+}
+
+picture and menu {
+	
+	
+}
+.full-width-section img {
+    width: 100%; 
+    height: auto; 
+}
+.full-width-section {
+    position: relative; 
+    width: 100%; 
+}
+
+.menu-overlay {
+    position: relative;
+    width: 100%;
+}
+
+.menu-overlay img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 96px; 
+    color: #fff; 
+    background-color: none(0, 0, 0, 0); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+	font-family: Arial, "Arial Bold"
+	
+
+}
+
+
+main {
+}
+
+.menu-section {
+    width: 100%; 
+    margin: 20px 0; 
+    text-align: center; 
+}
+
+
+
+.menu-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    background-color: #F4ECCF;
+    padding: 10px;
+	font-family: Arial, "Arial Bold"
+	
+	
+}
+
+.menu-section .menu-item {
+    width: calc(33.33% - 20px); 
+    margin: 28px 28px 28px 28px; 
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+
+.dish-image {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 auto 10px; 
+}
+
+
+.dish-image img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+}
+
+.menu-item h3 {
+	font-family: Arial, "Arial Bold";
+    font-size: 18px; 
+    margin: 10px 0;
+}
+
+.menu-item p {
+	
+	font-family: Arial, "Arial Italic";
+    font-size: 16px; 
+    margin: 10px 0;
+}
+
+.menu-section.sides .menu-item p {
+    font-size: 14px; 
+}
+
+.price {
+    display: block;
+	font-family: Arial, "Arial Bold";
+    font-size: 15px;
+    color: #5A8872;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px 70px 0px 70px;
+    text-align: center;
+	font-family: Arial, "Arial Italic";
+	font-size: 12px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.social-media {
+    flex: 1;
+    text-align: right;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+
+
